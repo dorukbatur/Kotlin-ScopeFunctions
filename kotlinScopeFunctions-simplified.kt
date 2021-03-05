@@ -1,6 +1,6 @@
 /** Scope Functions
  *	Doruk Batur 02.03.2021
- *	edited 06.03.2021 thanks for reading 
+ *	edited 06.03.2021
  *	Made for kotlin and tried to simplify amap the scope functions of kotlin
  *
  *	
@@ -77,7 +77,7 @@ fun main() {
 
 	//let and run functions is being used for NullPointerExceptions
 	//let function simply doesnt let the object or variable or whatever you use to go through the lambda function 
-	//something like if method that simply looks for the variable if its null or not ,if its not it simply "let" the lambda to continue
+	//something like "if" method that simply looks for the variable if its null or not ,if its not it simply "let" the lambda to continue
 	//and lambda has a return so you use it as a return function
 
     val name: String? = null
